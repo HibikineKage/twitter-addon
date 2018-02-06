@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Twitter Improver",
+    "version": "0.0.1",
+    "description": "Improve your Twitter life!",
+    "icons": {
+        "48": "icon-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://twitter.com/*"],
+            "js": ["dist/twitter-addon.js"]
+        }
+    ]
+}
+
